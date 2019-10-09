@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Abstract</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>抽象是指去掉不重要的细节来解释问题或解决方案的能力。换句话说，即将想法概念化的能力。</string>
+			</dict>
+		</dict>
+		<key>Behavior</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>机器人或机器的工作方式。
+</string>
+			</dict>
+		</dict>
+		<key>Color Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>颜色传感器是数字传感器，可探测颜色或射入传感器表面进光孔的光线强度。此传感器可在三种不同模式下使用：颜色模式、反射光线强度模式和环境光强度模式。
+
+在颜色模式下，颜色传感器可识别七种颜色：黑色、蓝色、绿色、黄色、红色、白色和褐色，还包括“无色”。可识别不同的颜色意味着你可给机器人编程，让它分辨不同颜色的球或砖块，说出探测到的颜色名称，或在探测到红色后停止操作。
+
+在反射光线强度模式下，颜色传感器测量红光灯所反射的光线强度。传感器探测范围从 0（非常暗）到 100（非常亮）。这意味着你可给机器人编程，让它在白色平面上移动，直至探测到黑线为止，或者用来解译以颜色编码的标识卡。
+
+在环境光强度模式下，颜色传感器测量周围环境中射入进光孔的光线强度，如太阳光或手电筒发出的光线。传感器探测范围从 0（非常暗）到 100（非常亮）。这意味着你可给机器人编程，让它在清晨日出时触发闹钟，或在光线消失时停止操作。</string>
+			</dict>
+		</dict>
+		<key>Data View</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>实时视图的第二个视图，以图形方式显示已连接电机和传感器随时间而变化的值。</string>
+			</dict>
+		</dict>
+		<key>Decompose</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>分解是指为简化寻找解决方案的过程而细化问题的能力。</string>
+			</dict>
+		</dict>
+		<key>EV3 Brick</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>作为机器人的控制中心和供电站。</string>
+			</dict>
+		</dict>
+		<key>Evaluate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>评估或调试是指验证原型是否如期工作的能力。原型未如期工作时，则指用来确定哪些需要进行改进的能力。</string>
+			</dict>
+		</dict>
+		<key>Function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>一组被命名的命令，需要时即可运行。</string>
+			</dict>
+		</dict>
+		<key>Generalize</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>泛化是指识别任务的已知部分或已见部分的能力。</string>
+			</dict>
+		</dict>
+		<key>Gyro Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>陀螺仪传感器是数字传感器，可探测单个轴的转动动作。如果按照传感器盒子上的箭头方向转动陀螺仪传感器，传感器可以探测转动速率，单位为度/秒（传感器可测量的最大转动速率为 440 度/秒）。例如，你可以随后使用转动速率来探测机器人某个部件的转动，或探测机器人是否摔倒。
+
+此外，陀螺仪传感器会持续记录总转动角度。例如，你可以使用此转动角度来探测机器人转弯的度数。这个功能意味着你可以（在陀螺仪传感器测量轴上）对转弯进行编程，直角（90 度）转弯的准确度偏差在正负 3 度以内。</string>
+			</dict>
+		</dict>
+		<key>Infrared Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>红外线传感器是数字传感器，可探测固体反射的红外线光。</string>
+			</dict>
+		</dict>
+		<key>Input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在机器人系统中，输入是指从现实世界收集信息的方式，如传感器。例如，超声波传感器会探测前方存在的障碍物。</string>
+			</dict>
+		</dict>
+		<key>Motor (Large)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>大型电机是强大的“智能”电机。它内建转动传感器，控制可精确到 1 度。大型电机为机器人的基础传动进行了优化。
+
+大型电机可通过编程来启动或关闭、控制其功率，或运转特定的时长或圈数。</string>
+			</dict>
+		</dict>
+		<key>Motor (Medium)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>中型电机同样内建转动传感器（控制精度为 1 度），但它比大型电机更轻巧。这意味着它的响应速度比大型电机更快。
+
+中型电机可通过编程来启动或关闭、控制其功率，或运转特定的时长或圈数。</string>
+			</dict>
+		</dict>
+		<key>Output</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>在机器人系统中，输出是指改变现实世界的方式。例如，电机用来产生移动、扬声器用来制造声音、LED 用来发光、显示屏用来显示图像或文字。</string>
+			</dict>
+		</dict>
+		<key>Parameters</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>函数的特性，可修改以更改函数的行为。</string>
+			</dict>
+		</dict>
+		<key>Port View</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>实时视图的第一个视图，显示端口信息框，含有已连接电机和传感器的值。</string>
+			</dict>
+		</dict>
+		<key>Program Flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>函数和循环结构在程序中执行的顺序。</string>
+			</dict>
+		</dict>
+		<key>Quick Help Function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>上下文帮助文本框，显示与函数及其参数相关的信息。</string>
+			</dict>
+		</dict>
+		<key>Think Algorithmically</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>算法思维是指为解决问题而创建一系列有序步骤的能力。</string>
+			</dict>
+		</dict>
+		<key>Touch Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>触动传感器是模拟传感器，可探测传感器的红色按钮何时被按下和松开。这意味着可通过两个条件（按下或松开），编程触动传感器进行操作。利用触动传感器的输入，机器人可被编程为类似现实生活中的盲人，伸出双手来感应所接触的东西（当传感器被按下时）。
+
+你可以拼砌一个机器人，使它的触动传感器被下方的平面顶住。然后给机器人编程，使它在即将走出桌面边缘时（传感器被松开）作出反应（停下！）。
+			</string>
+			</dict>
+		</dict>
+		<key>Ultrasonic Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>超声波传感器是数字传感器，可测量其前方物体的距离。它通过发出高频声波并测算声音返回至传感器的时长来计算距离。该声音频率高于人类可听见的声音频率范围。
+
+物体距离的测量单位可以是英寸或厘米。你可以给机器人编程，使其在离墙特定距离时停下。
+
+以厘米作单位时，可探测距离为 3 - 250 厘米（精确度为正负 1 厘米）。以英寸作单位时，可探测距离为 1 - 99 英寸（精确度为正负 0.394 英寸）。255 厘米或 100 英寸的值无效。</string>
+			</dict>
+		</dict>
+		<key>Value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>通过参数传递给函数的数字或字符串。</string>
+			</dict>
+		</dict>
+		<key>ev3.brickLightOff</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`brickLightOff` 函数会关闭程序块状态灯。</string>
+			</dict>
+		</dict>
+		<key>ev3.brickLightOn</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`brickLightOn` 函数控制程序块状态灯。程序块状态灯环绕着 EV3 程序块表面的程序块按钮。你可以打开程序块状态灯（绿色、橙色或红色），关闭它或使它间歇性闪烁。</string>
+			</dict>
+		</dict>
+		<key>ev3.display</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`display` 函数可在 EV3 程序块显示屏的任意位置显示文字。</string>
+			</dict>
+		</dict>
+		<key>ev3.displayCircle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`displayCircle` 函数会在显示屏上绘制圆圈。</string>
+			</dict>
+		</dict>
+		<key>ev3.displayImage</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`displayImage` 函数会绘制图形图像文件。它可让你从 EV3 程序块上可用的图像文件列表中进行选取。</string>
+			</dict>
+		</dict>
+		<key>ev3.displayLine</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`displayLine` 函数会在显示屏上的任意两点间绘制直线。</string>
+			</dict>
+		</dict>
+		<key>ev3.displayPoint</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`displayPoint` 函数会在显示屏上绘制单个像素点。</string>
+			</dict>
+		</dict>
+		<key>ev3.displayRectangle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`displayRectangle` 函数会在显示屏上绘制矩形。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureGyroAngle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureGyroAngle` 函数使用陀螺仪传感器测量角度。角度基于最后一次重设的传感器进行测量。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureGyroRate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureGyroRate` 函数使用陀螺仪传感器测量转动速率，单位为度/秒。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureLightAmbient</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureLightAmbient` 函数使用颜色传感器测量环境光强度。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureLightColor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureLightColor` 函数使用颜色传感器探测颜色。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureLightReflection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureLightReflection` 函数使用颜色传感器测量反射光线强度。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureMotorDegrees</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureMotorDegrees` 函数测量当前电机的转动度数。电机转动以度为单位，基于程序开始时它的位置或最后一次重设的传感器进行测量。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureMotorPower</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureMotorPower` 函数测量当前的电机功率。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureMotorRotations</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureMotorRotations` 函数测量当前电机的转动圈数。电机转动以圈数为单位，基于程序开始时它的位置或最后一次重设的传感器进行测量。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureTouch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureTouch` 函数测量触动传感器的状态。触动传感器可被“按下”或“松开”</string>
+			</dict>
+		</dict>
+		<key>ev3.measureTouchCount</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureTouchCount` 函数在程序开始后或最后一次重设传感器后，测量触动传感器被触碰的次数。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureUltrasonicCentimeters</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureUltrasonicCentimeters` 函数使用超声波传感器测量与物体的距离，单位为厘米。</string>
+			</dict>
+		</dict>
+		<key>ev3.measureUltrasonicInches</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`measureUltrasonicInches` 函数使用超声波传感器测量与物体的距离，单位为英寸。</string>
+			</dict>
+		</dict>
+		<key>ev3.motorOff</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`motorOff` 函数会关闭电机。它通常用于使程序中早前通过“motorOn”函数启动的电机停止运转。如果 withBrake 为“真”，电机会立即停止运转。电机会停留在停止运转的位置，直至另一个函数启动它或程序结束。如果 withBrake 为“假”，电机电源会立即切断。电机运转会在任何剩余动量的作用下逐渐减弱，直至停止运转或另一个函数开始运行。</string>
+			</dict>
+		</dict>
+		<key>ev3.motorOn</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`motorOn` 函数控制电机。你可以启动或关闭电机，控制其功率，或启动电机并运转特定的时长或圈数。“motorOn”函数会启动电机，然后立即执行程序中的下一个代码块，除非有 forSeconds、forDegrees 或 forRotations 参数指定了持续时间。你可以使用 withPower 参数控制电机的速度和方向。电机会持续运转，直至程序中的下一条指令使其停止运转或改变其运转状态，或直至程序结束。</string>
+			</dict>
+		</dict>
+		<key>ev3.move</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`move` 函数可让机器人前进、后退、转弯或停下。为有两个大型电机的机器人小车使用“move”函数，其中一个电机驱动小车的左侧传动，另一个电机驱动右侧传动。你可以让两个电机以不同的速度运转，或以不同的方向运转，使机器人转弯。“move”函数会同时启动两个电机，然后立即执行程序中的下一条指令，除非有 forSeconds、forDegrees 或 forRotations 参数指定了持续时间。你可以使用 leftPower 和 rightPower 参数控制电机的速度和方向。电机会持续运转，直至程序中的下一条指令使其停止运转或改变其运转状态，或直至程序结束。</string>
+			</dict>
+		</dict>
+		<key>ev3.playSound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`playSound` 函数使用 EV3 程序块的内置扬声器播放声音。你可以播放预录制的声音文件或指定音符或音调。</string>
+			</dict>
+		</dict>
+		<key>ev3.resetGyro</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`resetGyro` 函数可重设陀螺仪计数器。</string>
+			</dict>
+		</dict>
+		<key>ev3.resetMotor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`resetMotor` 函数可重设电机圈数计数器。</string>
+			</dict>
+		</dict>
+		<key>ev3.resetTouchCount</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>The `resetTouchCount` function allows you to reset the touch counter.</string>
+			</dict>
+		</dict>
+		<key>ev3.stopMove</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`stopMove` 函数会同时关闭两个电机。使用“stopMove”函数，使程序中早前通过“move”函数启动的机器人停止运转。如果 withBrake 为“真”，电机会立即停止运转。电机会停留在停止运转的位置，直至另一个函数启动它们或程序结束。如果 withBrake 为“假”，电机电源会立即切断。电机运转会在任何剩余动量的作用下逐渐减弱，直至停止运转或另一个函数开始运行。</string>
+			</dict>
+		</dict>
+		<key>ev3.stopSound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`stopSound` 函数会停止 EV3 程序块当前播放的任何声音。这常用于停止程序中早前通过“playSound”函数开始播放的声音，而不等待声音播放完。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitFor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitFor` 函数可让程序等待一段时间（以秒为单位），再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForGyroAngle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForGyroAngle` 函数可让程序等待角度大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForGyroRate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForGyroRate` 函数可让程序等待转动速率（以度/秒为单位）大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForLightAmbient</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForLightAmbient` 函数可让程序等待测量的环境光强度大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForLightColor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForLightColor` 函数可让程序等待颜色传感器探测到特定颜色后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForLightReflection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForLightReflection` 函数可让程序等待测量的反射光线强度大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForMotorDegrees</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForMotorDegrees` 函数可让程序等待电机的转动（以度为单位）大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForMotorPower</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForMotorPower` 函数可让程序等待当前输送给电机的功率大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForMotorRotations</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForMotorRotations` 函数可让程序等待电机的转动（以圈数为单位）大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForTouch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForTouch` 函数可让程序等待触动传感器被按下后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForTouchCount</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForTouchCount` 函数可让程序等待触动传感器被触碰特定次数后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForTouchReleased</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForTouchReleased` 函数可让程序等待触动传感器被松开后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicCentimeters</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForUltrasonicCentimeters` 函数可让程序等待距离（以厘米为单位）大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicDecrease</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForUltrasonicDecrease` 函数可让程序等待测量的距离缩小后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicInches</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForUltrasonicInches` 函数可让程序等待距离（以英寸为单位）大于或小于期望阈值后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicIncrease</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>`waitForUltrasonicIncrease` 函数可让程序等待测量的距离增大后，再执行程序中的下一条指令。</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

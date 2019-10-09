@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>プロトタイプをテストするときは、常に同じ位置から始め、物体は常に同じ場所に置き、カメの頭から40 cm離してください。
+</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

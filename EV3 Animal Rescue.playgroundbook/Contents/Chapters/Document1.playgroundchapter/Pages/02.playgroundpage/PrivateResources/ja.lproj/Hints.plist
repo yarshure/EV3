@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>以下は`file`パラメータにおいて使用できるサウンドの値の一覧です:
+
+`.hello`
+
+`.goodbye`
+
+`.fanfare`
+
+`.errorAlarm`
+
+`.start`
+
+`.stop`
+
+`.object`
+
+`.ouch`
+
+`.blip`
+
+`.arm`
+
+`.snap`
+
+`.laser`
+			</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>次の要素は重要です:
+
+**関数:** 必要なときにすばやく実行できるように、一連のコマンドに名前を付けたもの。
+
+**パラメータ:** 関数の性質。パラメータを変えることで関数の振る舞いを変えることができます。
+
+**値:** パラメータで関数に渡される数値または文字列。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

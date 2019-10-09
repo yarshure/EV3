@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Here is the list of values you can use for the 'images' parameter:
+
+`.neutral`
+
+![.neutral](EV3-images-01.png)
+
+`.pinchRight`
+
+![.pinchRight](EV3-images-02.png)
+
+`.awake`
+
+![.awake](EV3-images-03.png)
+
+`.hurt`
+
+![.hurt](EV3-images-04.png)
+
+`.accept`
+
+![.accept](EV3-images-05.png)
+
+`.decline`
+
+![.decline](EV3-images-12.png)
+
+`.questionMark`
+
+![.questionMark](EV3-images-06.png)
+
+`.warning`
+
+![.warning](EV3-images-07.png)
+
+`.stop`
+
+![.stop](EV3-images-08.png)
+
+`.pirate`
+
+![.pirate](EV3-images-09.png)
+
+`.boom`
+
+![.boom](EV3-images-10.png) 
+
+`.ev3Icon`
+
+![.ev3Icon](EV3-images-11.png)
+</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>The program flow is the order and the speed at which lines of codes are executed. In this example, a line of code is not executed until the previous line actions is done.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

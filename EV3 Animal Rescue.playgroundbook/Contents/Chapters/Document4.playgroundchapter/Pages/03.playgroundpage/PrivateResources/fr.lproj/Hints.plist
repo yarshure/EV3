@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Souviens-toi que les valeurs d’entrée de `withPower` vont de `-100.0` à `100.0`. C’est pourquoi, si la valeur aléatoire indiquant la puissance est positive, le moteur pivotera dans une direction. Si cette valeur est négative, le moteur pivotera dans l’autre direction.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

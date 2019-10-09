@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Denk daran, dass die Eingabewerte für `withPower` von `-100.0` bis `100.0` reichen. Wenn also der als Powervariable gespeicherte Wert positiv ist, dreht sich der Motor in eine Richtung. Ist der als Powervariable gespeicherte Wert negativ, dreht sich der Motor in die andere Richtung.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

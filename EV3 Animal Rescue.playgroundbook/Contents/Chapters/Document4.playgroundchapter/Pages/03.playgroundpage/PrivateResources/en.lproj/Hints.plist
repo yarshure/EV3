@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Remember that `withPower` input values range from `-100.0` to `100.0`. Therefore, if the random value stored as the power variable is positive, the motor will rotate in one direction. If the random value stored as the power variable is negative, the motor will rotate in the other direction.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`withPower`の入力値は`-100.0`〜`100.0`です。電力変数として保存されるランダム値が正の場合は、モーターはある方向に回転します。電力変数として保存されるランダム値が負の場合は、モーターは反対方向に回転します。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

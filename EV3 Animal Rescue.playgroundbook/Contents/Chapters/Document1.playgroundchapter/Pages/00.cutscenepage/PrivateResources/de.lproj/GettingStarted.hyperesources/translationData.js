@@ -1,0 +1,118 @@
+(function () {
+	window.translationData = {};
+	window.translationData.en = {
+		START_CODING: "Start Coding",
+		PAGINATION_PAGE_OF: "{current} of {total}",
+		SCENES_SCENE_0_TITLE: "PROGRAMMING YOUR ROBOT",
+		SCENES_SCENE_1_TITLE: "Build your own creation and learn to code it",
+		SCENES_SCENE_2_TITLE: "Your robot has a brain, the EV3 Brick",
+		SCENES_SCENE_3_TITLE: "Bring your robot to life by adding sensors and motors",
+		SCENES_SCENE_4_7_TITLE: "Your robot can perform actions using the EV3 Brick outputs",
+		SCENES_SCENE_4_7_BULLET_1: "Four output ports for connecting motors",
+		SCENES_SCENE_4_7_BULLET_2: "Brick Status Light can display three different colors",
+		SCENES_SCENE_4_7_BULLET_3: "Display can show text and images",
+		SCENES_SCENE_4_7_BULLET_4: "Speaker can play sounds",
+		SCENES_SCENE_8_11_TITLE: "It can also sense things in its environment using its inputs",
+		SCENES_SCENE_8_11_BULLET_1: "Color Sensor can detect colors or intensity of light",
+		SCENES_SCENE_8_11_BULLET_2: "Touch Sensor can “feel” objects",
+		SCENES_SCENE_8_11_BULLET_3: "Gyro Sensor can sense direction",
+		SCENES_SCENE_8_11_BULLET_4: "Ultrasonic Sensor can detect objects",
+		SCENES_SCENE_12_TITLE: "See what you can build, code and learn"
+	}
+	window.translationData.de = {
+		"START_CODING": "Los gehts",
+		"PAGINATION_PAGE_OF": "{current} von {total}",
+		"SCENES_SCENE_0_TITLE": "DEINEN ROBOTER PROGRAMMIEREN",
+		"SCENES_SCENE_1_TITLE": "Baue deine eigenen Kreationen und lerne, sie zu programmieren",
+		"SCENES_SCENE_2_TITLE": "Dein Roboter hat ein Gehirn, den EV3-Stein",
+		"SCENES_SCENE_3_TITLE": "Erwecke deinen Roboter zum Leben, indem du Sensoren und Motoren hinzufügst",
+		"SCENES_SCENE_4_7_TITLE": "Dein Roboter kann mit den Ausgaben des EV3-Steins Aktionen ausführen",
+		"SCENES_SCENE_4_7_BULLET_1": "Vier Ausgabeports zum Anschließen von Motoren",
+		"SCENES_SCENE_4_7_BULLET_2": "Das Statuslicht des Steins kann drei unterschiedliche Farben anzeigen",
+		"SCENES_SCENE_4_7_BULLET_3": "Das Display kann Text und Bilder anzeigen",
+		"SCENES_SCENE_4_7_BULLET_4": "Der Lautsprecher kann Sounds abspielen",
+		"SCENES_SCENE_8_11_TITLE": "Er kann mit seinen Eingaben auch Objekte in seiner Umgebung erkennen",
+		"SCENES_SCENE_8_11_BULLET_1": "Der Farbsensor kann Farben oder Lichtintensität erkennen",
+		"SCENES_SCENE_8_11_BULLET_2": "Der Berührungssensor kann Objekte „fühlen“",
+		"SCENES_SCENE_8_11_BULLET_3": "Der Gyroskopsensor kann Richtungen erkennen",
+		"SCENES_SCENE_8_11_BULLET_4": "Der Ultraschallsensor kann Objekte erkennen",
+		"SCENES_SCENE_12_TITLE": "Baue, programmiere und lerne"
+	}
+	window.translationData.fr = 
+	{
+		"START_CODING": "C’est parti !",
+		"PAGINATION_PAGE_OF": "{current} sur {total}",
+		"SCENES_SCENE_0_TITLE": "PROGRAMMATION DE TON ROBOT",
+		"SCENES_SCENE_1_TITLE": "Assemble ton propre robot et apprends à le coder",
+		"SCENES_SCENE_2_TITLE": "Ton robot a un cerveau : la brique EV3",
+		"SCENES_SCENE_3_TITLE": "Donne vie à ton robot en lui ajoutant des capteurs et des moteurs",
+		"SCENES_SCENE_4_7_TITLE": "Ton robot peut effectuer des opérations à l’aide des sorties de la brique EV3",
+		"SCENES_SCENE_4_7_BULLET_1": "Quatre ports de sortie servent à connecter les moteurs",
+		"SCENES_SCENE_4_7_BULLET_2": "Les témoins d’état de la brique peuvent briller de trois couleurs différentes",
+		"SCENES_SCENE_4_7_BULLET_3": "L’écran peut afficher du texte et des images",
+		"SCENES_SCENE_4_7_BULLET_4": "Le haut-parleur peut émettre des sons",
+		"SCENES_SCENE_8_11_TITLE": "Ses entrées lui permettent également de détecter des éléments de son environnement",
+		"SCENES_SCENE_8_11_BULLET_1": "Le capteur de couleurs peut détecter des couleurs ou l’intensité des lumières",
+		"SCENES_SCENE_8_11_BULLET_2": "Le capteur tactile peut « sentir » des objets",
+		"SCENES_SCENE_8_11_BULLET_3": "Le capteur gyroscopique peut détecter les directions",
+		"SCENES_SCENE_8_11_BULLET_4": "Le capteur à ultrasons peut détecter des objets",
+		"SCENES_SCENE_12_TITLE": "Découvre ce que tu peux monter, coder et apprendre"
+	}
+	window.translationData.ja = {
+		"START_CODING": "始めよう",
+		"PAGINATION_PAGE_OF": "{current} / {total}",
+		"SCENES_SCENE_0_TITLE": "ロボットのプログラミング",
+		"SCENES_SCENE_1_TITLE": "自分だけのロボットを作りながらコーディングの方法を学びましょう。",
+		"SCENES_SCENE_2_TITLE": "ロボットの中には、EV3という頭脳ブロックがあります。",
+		"SCENES_SCENE_3_TITLE": "センサーやモーターを追加して、ロボットを動かしましょう。",
+		"SCENES_SCENE_4_7_TITLE": "ロボットは、EV3ブロックからの出力を使って動かすことができます。",
+		"SCENES_SCENE_4_7_BULLET_1": "4つの出力ポートにそれぞれモーターをつなぐことができます",
+		"SCENES_SCENE_4_7_BULLET_2": "インテリジェント・ブロック・ステータス・ライトは3つの色でブロックの状態を教えてくれます",
+		"SCENES_SCENE_4_7_BULLET_3": "ディスプレイには文字や画像を表示できます",
+		"SCENES_SCENE_4_7_BULLET_4": "スピーカーからは音が出ます",
+		"SCENES_SCENE_8_11_TITLE": "入力を使って周りの状況を知ることもできます",
+		"SCENES_SCENE_8_11_BULLET_1": "カラーセンサーは色や光の強さを感知します",
+		"SCENES_SCENE_8_11_BULLET_2": "タッチセンサーは物が触れたことを感じ取ります",
+		"SCENES_SCENE_8_11_BULLET_3": "ジャイロセンサーは向きを検知します",
+		"SCENES_SCENE_8_11_BULLET_4": "超音波センサーは物があることを探知します",
+		"SCENES_SCENE_12_TITLE": "さっそくロボットの作りかたとコーディングの方法を学びましょう"
+	}
+	window.translationData["es-419"] = {
+		"START_CODING": "Comenzar",
+		"PAGINATION_PAGE_OF": "{current} de {total}",
+		"SCENES_SCENE_0_TITLE": "PROGRAMA TU ROBOT",
+		"SCENES_SCENE_1_TITLE": "Construye tu propia creación y aprende a programarla.",
+		"SCENES_SCENE_2_TITLE": "Tu robot tiene un cerebro, también conocido como Bloque EV3.",
+		"SCENES_SCENE_3_TITLE": "Agrégale sensores y motores a tu robot para darle vida.",
+		"SCENES_SCENE_4_7_TITLE": "Tu robot puede realizar acciones usando las salidas del Bloque EV3.",
+		"SCENES_SCENE_4_7_BULLET_1": "Cuatro puertos de salida para conectar motores.",
+		"SCENES_SCENE_4_7_BULLET_2": "Luz de estado que puede mostrar tres colores distintos.",
+		"SCENES_SCENE_4_7_BULLET_3": "Pantalla que puede mostrar texto e imágenes.",
+		"SCENES_SCENE_4_7_BULLET_4": "Bocina que puede reproducir sonidos.",
+		"SCENES_SCENE_8_11_TITLE": "También puede detectar cosas que haya a su alrededor usando sus entradas.",
+		"SCENES_SCENE_8_11_BULLET_1": "El sensor de color puede detectar colores y la intensidad de la luz.",
+		"SCENES_SCENE_8_11_BULLET_2": "El sensor táctil puede “sentir” objetos.",
+		"SCENES_SCENE_8_11_BULLET_3": "El girosensor puede detectar la dirección.",
+		"SCENES_SCENE_8_11_BULLET_4": "El sensor ultrasónico puede detectar objetos.",
+		"SCENES_SCENE_12_TITLE": "¡Veamos qué puedes construir, programar y aprender!"
+	}
+	window.translationData["zh-CN"] = {
+		"START_CODING": "开始编程",
+		"PAGINATION_PAGE_OF": "{current}/{total}",
+		"SCENES_SCENE_0_TITLE": "给机器人编程",
+		"SCENES_SCENE_1_TITLE": "拼砌自己的作品，并学习如何给它编程",
+		"SCENES_SCENE_2_TITLE": "你的机器人也有大脑，即 EV3 程序块",
+		"SCENES_SCENE_3_TITLE": "接上传感器和电机，给机器人赋予生命",
+		"SCENES_SCENE_4_7_TITLE": "通过 EV3 程序块的输出，你的机器人可以执行一些操作",
+		"SCENES_SCENE_4_7_BULLET_1": "四个用于连接电机的输出端口",
+		"SCENES_SCENE_4_7_BULLET_2": "程序块状态指示灯显示三种不同颜色",
+		"SCENES_SCENE_4_7_BULLET_3": "显示屏可显示文字和图像",
+		"SCENES_SCENE_4_7_BULLET_4": "扬声器可播放声音",
+		"SCENES_SCENE_8_11_TITLE": "它还可以使用收到的输入，感应周围环境中的事物",
+		"SCENES_SCENE_8_11_BULLET_1": "颜色传感器可探测颜色或光线的强度",
+		"SCENES_SCENE_8_11_BULLET_2": "触动传感器可“感觉到”物体",
+		"SCENES_SCENE_8_11_BULLET_3": "陀螺仪传感器可感应方向",
+		"SCENES_SCENE_8_11_BULLET_4": "超声波传感器可探测物体",
+		"SCENES_SCENE_12_TITLE": "看看你能拼砌、编程和学到什么"
+	}
+})();

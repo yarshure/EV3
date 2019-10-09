@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>この作業を解決する方法はたくさんあります。
+たとえば、`stepLag`（ステップラグ）関数を3回書くことです。
+`for`ループを使用する方法もあります。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`for`ループの使いかたは“コードを学ぼう1”で説明されています。詳しくは、この本を参照してください。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

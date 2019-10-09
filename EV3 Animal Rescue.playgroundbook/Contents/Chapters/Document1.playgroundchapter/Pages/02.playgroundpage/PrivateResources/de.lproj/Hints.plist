@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Hier eine Liste der Tonwerte, die du für den Parameter `file` verwenden kannst:
+
+`.hello`
+
+`.goodbye`
+
+`.fanfare`
+
+`.errorAlarm`
+
+`.start`
+
+`.stop`
+
+`.object`
+
+`.ouch`
+
+`.blip`
+
+`.arm`
+
+`.snap`
+
+`.laser`
+			</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Denk an diese wichtigen Elemente :
+
+**Funktion:** Eine benannte Reihe von Befehlen, die bei Bedarf jederzeit ausgeführt werden können.
+
+**Parameter:** Eigenschaften einer Funktion, die angepasst werden können, um das Verhalten einer Funktion zu ändern.
+
+**Wert:** Eine Zahl oder ein String, der über Parameter einer Funktion übergeben wird.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

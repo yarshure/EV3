@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>电机会始终连接到端口 `.a`、`.b`、`.c` 或 `.d`。
+
+请确保在程序中定义的字母与电机所连接端口的字母一致。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

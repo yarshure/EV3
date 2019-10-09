@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>请确保传感器前方没有物体（如传感器前方已经有线、书本或 iPad）后，再轻点“运行我的代码”，因为这会立即触发 `waitForUltrasonicCentimeters` 命令。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

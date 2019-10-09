@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`file` 参数可用的声音值如下：
+
+`.hello`
+
+`.goodbye`
+
+`.fanfare`
+
+`.errorAlarm`
+
+`.start`
+
+`.stop`
+
+`.object`
+
+`.ouch`
+
+`.blip`
+
+`.arm`
+
+`.snap`
+
+`.laser`
+			</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>请牢记这些重要元素：
+
+**函数：** 一组被命名的命令，需要时即可运行。
+
+**参数：** 函数的特性，可修改以更改函数的行为。
+
+**值：** 通过参数传递给函数的数字或字符串。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

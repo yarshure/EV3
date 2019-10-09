@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>The Ultrasonic Sensor does not detect the shape or the type of objects. It detects the distance between the sensor and any object that is placed in front of it. 
+</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

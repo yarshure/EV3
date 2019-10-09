@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Avant d’apporter des modifications à un programme que tu essaies de débugger, vérifie que les valeurs du port de ton programme correspondent aux ports auxquels les moteurs et les capteurs sont connectés. 
+</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Sensoren sind immer an die Ports `one`, `two`, `three` oder `four` angeschlossen.
+			
+Vergewissere dich, dass die in deinem Programm definierte Zahl mit der Zahl des Ports, an den dein Motor angeschlossen ist, übereinstimmt.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

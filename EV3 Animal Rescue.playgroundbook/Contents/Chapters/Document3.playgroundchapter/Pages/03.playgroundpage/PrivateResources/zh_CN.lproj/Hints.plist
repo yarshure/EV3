@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>完成此任务的方法有多种。
+其中一种方法是使用 `detectObject` 函数三次，后面再跟 `playSound` 函数。
+另一种方法是使用 `while` 循环。</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>`while` 循环的用法在“学习编程 1”书中已提及。请参阅此书来获取更多帮助。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

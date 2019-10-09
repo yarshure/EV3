@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Hay varias formas de resolver esta tarea.
+Una de ellas es escribir la función `detectObject` tres veces seguida de la función `playSound`.
+Otra forma es usar un bucle `while`.</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>El uso del bucle `while` se explica en el libro *“Aprende a programar 1”*. Consúltalo para obtener más información.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

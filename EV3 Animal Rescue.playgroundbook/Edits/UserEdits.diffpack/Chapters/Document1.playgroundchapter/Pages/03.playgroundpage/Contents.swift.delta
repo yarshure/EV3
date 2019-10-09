@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>4</string>
+			<key>ModifiedRange</key>
+			<string>{1462, 1}</string>
+			<key>OriginalContent</key>
+			<string>0.5</string>
+			<key>OriginalRange</key>
+			<string>{1462, 3}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>awak</string>
+			<key>ModifiedRange</key>
+			<string>{1536, 4}</string>
+			<key>OriginalContent</key>
+			<string>n</string>
+			<key>OriginalRange</key>
+			<string>{1538, 1}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1541, 0}</string>
+			<key>OriginalContent</key>
+			<string>utral</string>
+			<key>OriginalRange</key>
+			<string>{1540, 5}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>o</string>
+			<key>ModifiedRange</key>
+			<string>{1663, 1}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1667, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>ang</string>
+			<key>ModifiedRange</key>
+			<string>{1665, 3}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1668, 0}</string>
+		</dict>
+		<dict>
+			<key>ModifiedContent</key>
+			<string></string>
+			<key>ModifiedRange</key>
+			<string>{1669, 0}</string>
+			<key>OriginalContent</key>
+			<string>d</string>
+			<key>OriginalRange</key>
+			<string>{1669, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Document1.playgroundchapter/Pages/03.playgroundpage/Contents.swift</string>
+</dict>
+</plist>

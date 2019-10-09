@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>Motors are always connected to ports `.a`, `.b`, `.c` or `.d`.
+
+Make sure that the letter you have defined in your program matches the letter of the port that your motor is connected to.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

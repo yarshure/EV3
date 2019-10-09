@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Abstract</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Abstraktion ist die Fähigkeit ein Problem bzw. eine Lösung so zu erklären, dass unwichtige Details ausgelassen werden. Oder anders gesagt, eine Idee in Begriffe zu fassen. </string>
+			</dict>
+		</dict>
+		<key>Behavior</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Art und Weise, wie ein Roboter oder eine Maschine funktioniert.
+</string>
+			</dict>
+		</dict>
+		<key>Color Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der Farbsensor ist ein digitaler Sensor, der die Farbe oder Intensität des Lichts erkennt, das durch ein kleines Fenster vorne am Sensor eintritt. Dieser Sensor kann in drei verschiedenen Modi verwendet werden: Farbmodus, Intensität des reflektierten Lichts und Intensität des Umgebungslichts.
+
+Im Farbmodus, erkennt der Farbmodus sieben Farben (schwarz, blau, grau, gelb, rot, weiß und braun) und keine Farbe. Die Fähigkeit, zwischen Farben zu unterscheiden, bedeutet, dass dein Roboter darauf programmiert werden kann, farbige Bälle oder Blöcke zu sortieren, die Namen von Farben zu sprechen, wenn sie erkannt werden oder eine Aktion zu stoppen, wenn er rot sieht.
+
+Im Modus „Intensität des reflektierten Lichts“ misst der Farbsensor die Intensität von Licht, das von einer Lampe reflektiert wird, die Licht abgibt. Der Sensor verwendet eine Skala von 0 (sehr dunkel) bis 100 (sehr hell). Das heißt, dass dein Roboter so programmiert werden kann, dass er sich auf einer weißen Oberfläche bewegt, bis eine schwarze Linie erkannt wird, oder eine farbkodierte Identifikationskarte interpretieren kann.
+
+Im Modus „Intensität des Umgebungslichts“ misst der Farbsensor die Stärke des Lichts, das über das Fenster aus der Umgebung eindringt, zum Beispiel Sonnenlicht oder der Strahl einer Taschenlampe. Der Sensor verwendet eine Skala von 0 (sehr dunkel) bis 100 (sehr hell). Das bedeutet, dass dein Roboter darauf programmiert werden kann, einen Wecker auszulösen, wenn morgens die Sonne aufgeht oder eine Aktion zu stoppen, wenn das Licht ausgeht.</string>
+			</dict>
+		</dict>
+		<key>Data View</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Zweiter Bildschirm der Liveansicht, die die Grafiken mit den Werten für die angeschlossenen Motoren und Sensoren im Zeitverlauf anzeigt.</string>
+			</dict>
+		</dict>
+		<key>Decompose</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dekomposition ist die Fähigkeit, ein Problem durch Zerlegen in kleinere Teile zu vereinfachen, um leichter eine Lösung finden zu können.</string>
+			</dict>
+		</dict>
+		<key>EV3 Brick</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Dient als Kontrollzentrum und Ladestation für deinen Roboter.</string>
+			</dict>
+		</dict>
+		<key>Evaluate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Auswerten, auch Debugging, ist die Fähigkeit, zu überprüfen, ob ein Prototyp wie geplant funktioniert und andernfalls festzustellen, was verbessert werden muss.</string>
+			</dict>
+		</dict>
+		<key>Function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Eine benannte Reihe von Befehlen, die bei Bedarf jederzeit ausgeführt werden können.</string>
+			</dict>
+		</dict>
+		<key>Generalize</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Generalisierung ist die Fähigkeit, die Teile einer Aufgabe zu erkennen, die bekannt sind oder anderswo schon gesehen wurden. </string>
+			</dict>
+		</dict>
+		<key>Gyro Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der Gyroskopsensor ist ein digitaler Sensor, der Rotationsbewegungen auf einer Achse erkennt. Wenn du den Gyroskopsensor in die Richtung der Pfeile auf dem Sensorgehäuse drehst, kann der Sensor die Drehgeschwindigkeit in Grad pro Sekunde messen(Der Sensor kann maximal 440 Grad pro Sekunde messen.) Du kannst dann die Rotationsgeschwindigkeit verwenden, um zum Beispiel zu erkennen, wenn sich ein Teil des Roboters dreht oder dein Roboter umfällt.
+
+Außerdem merkt sich der Gyroskopsensor den gesamten Rotationswinkel in Grad. Du kannst diesen Rotationswinkel zum Beispiel verwenden, um zu erkennen, wie weit sich dein Roboter gedreht hat. Diese Funktion bedeutet, dass du Drehungen um 90 Grad (auf der Achse, die der Gyroskopsensor misst) mit einer Genauigkeit von +/-3 Grad programmieren kannst.</string>
+			</dict>
+		</dict>
+		<key>Infrared Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der Infrarotsensor ist ein digitaler Sensor, der von Festkörpern reflektiertes Infrarotlicht erkennen kann.</string>
+			</dict>
+		</dict>
+		<key>Input</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In einem Robotersystem sind Eingaben eine Methode, um Informationen aus der physischen Welt zu sammeln, zum Beispiel mithilfe von Sensoren. Der Ultraschallsensor erkennt zum Beispiel, wenn sich vor ihm Objekte befinden.</string>
+			</dict>
+		</dict>
+		<key>Motor (Large)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der große Motor ist ein leistungsstarker „intelligenter“ Motor. Er verfügt über einen integrierten Rotationssensor mit einer Auflösung von 1 Grad für eine präzise Steuerung. Der große Motor ist für das Fahrgestell deiner Roboter optimiert.
+
+Der große Motor kann so programmiert werden, dass er sich ein- oder ausschaltet, seine Leistungshöhe ändert oder eine bestimmte Anzahl an Rotationen durchführt.</string>
+			</dict>
+		</dict>
+		<key>Motor (Medium)</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der mittlere Motor enthält ebenfalls einen eingebauten Rotationssensor (mit einer Auflösung von 1 Grad), ist aber kleiner und leichter als der große Motor. Dadurch kann er auch schneller reagieren als der große Motor.
+
+Der mittlere Motor kann so programmiert werden, dass er sich ein- oder ausschaltet, seine Leistungshöhe ändert oder eine bestimmte Anzahl an Rotationen durchführt.</string>
+			</dict>
+		</dict>
+		<key>Output</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In einem Robotersystem sind Ausgaben eine Methode, die physische Welt zu ändern. Zum Beispiel werden Motoren verwendet, um Bewegungen zu erzeugen und Lautsprecher, um Töne zu erzeugen, LEDs, um Licht zu erzeugen und das Display, um Bilder oder Text anzuzeigen.</string>
+			</dict>
+		</dict>
+		<key>Parameters</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Eigenschaften einer Funktion, die angepasst werden können, um das Verhalten einer Funktion zu ändern.</string>
+			</dict>
+		</dict>
+		<key>Port View</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Erster Bildschirm der Liveansicht, die die Portinformationsfelder mit den Werten für die angeschlossenen Motoren und Sensoren anzeigt.</string>
+			</dict>
+		</dict>
+		<key>Program Flow</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Reihenfolge, in der Funktionen- und Schleifenstrukturen in einem Programm ausgeführt werden.</string>
+			</dict>
+		</dict>
+		<key>Quick Help Function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Kontextabhängiges Hilfsfeld, das Informationen zu Funktionen und den dazugehörigen Parametern anzeigt.</string>
+			</dict>
+		</dict>
+		<key>Think Algorithmically</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Algorithmisches Denken ist die Fähigkeit, eine geordnete Reihe von Schritten mit dem Ziel zu erstellen, ein Problem zu lösen.</string>
+			</dict>
+		</dict>
+		<key>Touch Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der Berührungssensor ist ein analoger Sensor, der erkennt, wenn die rote Taste des Sensors gedrückt und wieder losgelassen wird. Das bedeutet, dass der Berührungssensor mit zwei Bedingungen für Aktionen programmiert werden kann – gedrückt und losgelassen. Mit den Eingaben des Berührungssensor kann ein Roboter so programmiert werden, dass er die Welt wie eine blinde Person wahrnimmt, seine Hand ausstreckt und reagiert, wenn sie etwas berührt (der Sensor gedrückt wird).
+
+Du könntest einen Roboter bauen, bei dem der Berührungssensor die Oberfläche, auf der er steht, berührt. Du könntest ihn dann so programmieren, dass der Roboter anhält (Stop!), bevor er über die Tischkante fährt (wenn der Sensor losgelassen wird)
+			</string>
+			</dict>
+		</dict>
+		<key>Ultrasonic Sensor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Der Ultraschallsensor ist ein digitaler Sensor, der den Abstand zu einem Objekt vor ihm messen kann. Dies geschieht, indem er Schallwellen hoher Frequenz aussendet und misst, wie lange der Schall braucht, um zum Sensor zurückzukehren. Die Schallfrequenz ist zu hoch, um von Menschen gehört zu werden.
+
+Der Abstand zu einem Objekt kann in Zoll oder in Zentimetern gemessen werden. Dadurch kannst du deinen Roboter so programmieren, dass er in einem bestimmten Abstand zu einer Wand stehenbleibt.
+
+Wenn du Zentimeter verwendest, kann ein Abstand zwischen 3 und 250 Zentimetern (mit einer Genauigkeit von +/-1 Zentimeter) gemessen werden. Wenn du Zoll verwendest, kann ein Abstand zwischen 1 und 99 Zoll (mit einer Genauigkeit von +/-0,394 Zoll) gemessen werden. Ein Wert von 255 Zentimetern oder 100 Zoll.</string>
+			</dict>
+		</dict>
+		<key>Value</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Eine Zahl oder ein String, der über Parameter einer Funktion übergeben wird.</string>
+			</dict>
+		</dict>
+		<key>ev3.brickLightOff</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `brickLightOff` deaktiviert das Statuslicht des Steins.</string>
+			</dict>
+		</dict>
+		<key>ev3.brickLightOn</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `brickLightOn` steuert das Statuslicht des Steins. Das Statuslicht des Steins umgibt die Tasten vorne am EV3-Stein. Das Statuslicht kann grün, orange oder rot leuchten, du kannst es außerdem ausschalten oder es blinken lassen.</string>
+			</dict>
+		</dict>
+		<key>ev3.display</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `display` kann Text überall auf dem Display des EV3-Steins Text anzeigen.</string>
+			</dict>
+		</dict>
+		<key>ev3.displayCircle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `displayCircle` zeichnet auf dem Display einen Kreis.</string>
+			</dict>
+		</dict>
+		<key>ev3.displayImage</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `displayImage` zeichnet eine Grafikdatei. Du kannst aus der Liste der auf dem EV3-Stein verfügbaren Bilddateien wählen.</string>
+			</dict>
+		</dict>
+		<key>ev3.displayLine</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `displayLine` zeichnet zwischen zwei beliebigen Punkten auf dem Display eine gerade Linie.</string>
+			</dict>
+		</dict>
+		<key>ev3.displayPoint</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `displayPoint` zeichnet auf dem Display einen einzelnen Pixel.</string>
+			</dict>
+		</dict>
+		<key>ev3.displayRectangle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `displayRectangle` zeichnet auf dem Display ein Rechteck.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureGyroAngle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureGyroAngle` misst mithilfe des Gyroskopsensors den Winkel. Der Winkel wird relativ zum letzten Zurücksetzen des Sensors gemessen.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureGyroRate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureGyroRate` misst mithilfe des Gyroskopsensors die Rotationsrate in Grad pro Sekunde.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureLightAmbient</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureLightAmbient` misst mithilfe des Farbsensors die Intensität des Umgebungslichts.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureLightColor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureLightColor` erkennt mithilfe des Farbsensors Farben.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureLightReflection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureLightReflection` misst mithilfe des Farbsensors die Intensität des reflektierten Lichts.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureMotorDegrees</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureMotorDegrees` misst die aktuelle Motorrotation in Grad. Die Motorrotation wird in Grad relativ zur Position zu Beginn der Laufzeit des Programms oder beim letzten Zurücksetzen des Sensors gemessen.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureMotorPower</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureMotorPower` misst die aktuelle Leistungshöhe des Motors.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureMotorRotations</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureMotorRotations` misst die Anzahl der Drehungen. Die Motorrotation wird in Anzahl der Drehungen seit Beginn der Laufzeit des Programms oder dem letzten Zurücksetzen des Sensors gemessen.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureTouch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureTouch` misst den Zustand des Berührungssensors. Der Berührungssensor kann entweder gedrückt oder losgelassen werden</string>
+			</dict>
+		</dict>
+		<key>ev3.measureTouchCount</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureTouch` misst, wie oft der Berührungssensors seit dem Start des Programms oder seit dem letzten Zurücksetzen des Sensors gedrückt wurde.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureUltrasonicCentimeters</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureUltrasonicCentimeters` misst mithilfe des Ultraschallsensors den Abstand zu einem Objekt in Zentimetern.</string>
+			</dict>
+		</dict>
+		<key>ev3.measureUltrasonicInches</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `measureUltrasonicInches` misst mithilfe des Ultraschallsensors den Abstand zu einem Objekt in Zoll.</string>
+			</dict>
+		</dict>
+		<key>ev3.motorOff</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `motorOff` schaltet den Motor aus. In der Regel wird sie verwendet, um einen Motor auszuschalten, der vorher im Programm durch die Funktion 'motorOn' eingeschaltet wurde. Wenn „withBrake“ den Status „True“ hat, hält der Motor sofort an. Der Motor bleibt in seiner gestoppten Position, bis er von einer anderen Funktion wieder gestartet wird oder das Programm endet. Hat „withBrake“ den Status „False“, erhält der Motor einfach keinen Strom mehr. Der Motor läuft mit dem verbliebenen Drehmoment weiter, bis er anhält oder eine andere Funktion startet.</string>
+			</dict>
+		</dict>
+		<key>ev3.motorOn</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `motorOn` steuert einen Motor. Du kannst den Motor ein- und ausschalten, seine Leistungshöhe steuern oder ihn für eine bestimmte Zeit oder Anzahl an Rotationen einschalten. Die Funktion 'motorOn' schaltet den Motor ein und fährt dann sofort mit dem nächsten Block des Programms fort, außer die Dauer wurde mit einem der Parameter „forSeconds“, „forDegrees“ oder „forRotations“ angegeben. Mit dem Parameter „ withPower“ kannst du Geschwindigkeit und Richtung des Motors steuern. Der Motor läuft, bis er durch eine Anweisung später im Programm angehalten oder geändert wird oder bis das Programm endet.</string>
+			</dict>
+		</dict>
+		<key>ev3.move</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `move` kann einen Roboter vorwärts oder rückwärts bewegen, drehen und anhalten. Verwende die Funktion 'move' für Roboterfahrzeuge mit zwei großen Motoren, von denen einer die linke Seite und der andere die rechte Seite des Fahrzeugs antreibt. Du kannst die beiden Motoren mit unterschiedlichen Geschwindigkeiten oder in unterschiedliche Richtungen bewegen, damit sich dein Roboter dreht. Die Funktion 'move' aktiviert beide Motoren und geht dann sofort weiter zum nächsten Befehl im Programm, außer es wurde mit einem der Parameter „forSeconds“, „forDegrees“ oder „forRotations“ eine Dauer angegeben. Du kannst mit den Parametern „leftPower“ und „rightPower“ die Geschwindigkeit und Richtung der Motoren steuern. Die Motoren laufen, bis sie durch eine Anweisung später im Programm angehalten oder geändert werden oder bis das Programm endet.</string>
+			</dict>
+		</dict>
+		<key>ev3.playSound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `playSound` spielt mithilfe des Lautsprechers im EV3-Stein einen Ton ab. Du kannst zuvor aufgenommene Sounddateien, eine Note oder einen Ton abspielen.</string>
+			</dict>
+		</dict>
+		<key>ev3.resetGyro</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `resetGyro` ermöglicht es dir, den Gyroskopzähler zurückzusetzen.</string>
+			</dict>
+		</dict>
+		<key>ev3.resetMotor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `resetMotor` ermöglicht es dir, den Motorrotationszähler zurückzusetzen.</string>
+			</dict>
+		</dict>
+		<key>ev3.resetTouchCount</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>The `resetTouchCount` function allows you to reset the touch counter.</string>
+			</dict>
+		</dict>
+		<key>ev3.stopMove</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `stopMove` schaltet beide Motoren aus. Verwende die Funktion 'stopMove', um einen Roboter anzuhalten, der vorher im Programm durch die Funktion 'move' eingeschaltet wurde. Wenn „withBrake“ den Status „True“ hat, halten die Motoren sofort an. Die Motoren bleiben in ihren gestoppten Position, bis sie von einer anderen Funktion wieder gestartet werden oder das Programm endet. Hat „withBrake“ den Status „False“, erhalten die Motoren einfach keinen Strom mehr. Die Motoren laufen mit dem verbliebenen Drehmoment weiter, bis sie anhalten oder eine andere Funktion startet.</string>
+			</dict>
+		</dict>
+		<key>ev3.stopSound</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `stopSound` beendet alle Töne, die gerade vom EV3-Stein abgespielt werden. Dies wird in der Regel verwendet, um einen Ton zu beenden, der vorher im Programm mithilfe einer Funktion 'playSound' gestartet wurde, die nicht gewartet hatte, bis er fertig abgespielt war.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitFor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitFor` lässt dein Programm eine bestimmte Zeit warten, die in Sekunden angegeben wird, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForGyroAngle</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForGyroAngle` lässt dein Programm warten, bis der Winkel den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForGyroRate</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForGyroAngle` lässt dein Programm warten, bis die Rotationsrate, gemessen in Grad pro Sekunde, den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForLightAmbient</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForLightAmbient` lässt dein Programm warten, bis die gemessene Umgebungslichthelligkeit den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForLightColor</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForGyroAngle` lässt dein Programm warten, bis der Farbsensor eine bestimmte Farbe erkennt, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForLightReflection</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForLightReflection` lässt dein Programm warten, bis die gemessene Helligkeit des reflektierten Lichts den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForMotorDegrees</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForMotorDegrees` lässt dein Programm warten, bis die Rotation deines Motors, gemessen in Grad, den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForMotorPower</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForMotorPower` lässt dein Programm warten, bis die Stromzufuhr des Motor den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForMotorRotations</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForMotorDegrees` lässt dein Programm warten, bis die Rotation deines Motors, gemessen in Grad, den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForTouch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForTouch` lässt dein Programm warten, bis der Berührungssensor gedrückt wird, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForTouchCount</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForTouchCount` lässt dein Programm warten, bis der Berührungssensor eine bestimmte Anzahl an Malen berührt wurde, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForTouchReleased</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForTouchReleased` lässt dein Programm warten, bis der Berührungssensor losgelassen wird, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicCentimeters</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForUltrasonicCentimeters` lässt dein Programm warten, bis die Entfernung, gemessen in Zentimetern, den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicDecrease</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForUltrasonicDecrease` lässt dein Programm warten, bis der gemessene Abstand sinkt, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicInches</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForUltrasonicInches` lässt dein Programm warten, bis die Entfernung, gemessen in Zoll, den gewünschten Schwellenwert über- bzw. unterschreitet, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+		<key>ev3.waitForUltrasonicIncrease</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Die Funktion `waitForUltrasonicIncrease` lässt dein Programm warten, bis der gemessene Abstand ansteigt, bevor es zur nächsten Anweisung im Programm weitergeht.</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

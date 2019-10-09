@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Content</key>
+				<string>请牢记，`withPower` 输入值范围为 `-100.0` 到 `100.0`。因此，如果储存为功率变量的随机值为正值，电机会朝某个方向转动。如果储存为功率变量的随机值为负值，电机会朝反方向转动。</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
